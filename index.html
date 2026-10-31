@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6eddd">
+  <meta name="description" content="The Crave Craft — crafted like art, served with love. Explore our menu, from our cloud to your table.">
+  <title>The Crave Craft | Crafted like art, served with love</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">FROM OUR CLOUD TO YOUR TABLE <span>♥</span> MADE WITH LOVE</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="The Crave Craft home">
+      <img src="assets/cravecraft-logo.jpg" alt="The Crave Craft — Crafted like art, served with love">
+    </a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#story">Our story</a>
+      <a href="#menu">Explore menu</a>
+      <a href="#contact" class="nav-cta">Get in touch <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> A LITTLE LOVE IN EVERY BITE</p>
+        <h1>Made for your<br><em>cravings.</em></h1>
+        <p class="hero-text">A little craving, a little craft, and a whole lot of heart. We bring feel-good food to your table, freshly made and lovingly served.</p>
+        <a class="primary-button" href="#menu">Explore our menu <span>↓</span></a>
+        <p class="hero-note">Crafted like art, served with love.</p>
+      </div>
+      <div class="hero-art reveal">
+        <div class="art-ring"></div>
+        <div class="hero-logo-wrap"><img src="assets/cravecraft-logo.jpg" alt="The Crave Craft logo"></div>
+        <div class="floating-note note-one">made with<br><b>♥</b></div>
+        <div class="floating-note note-two">freshly<br>crafted</div>
+        <span class="leaf leaf-one">✳</span><span class="leaf leaf-two">✳</span>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="section-kicker">A NOTE FROM OUR KITCHEN</div>
+      <div class="story-content reveal">
+        <h2>Good food.<br><em>Good feelings.</em></h2>
+        <p>At The Crave Craft, we believe the best moments often begin with something delicious. We're a cloud kitchen bringing together comforting favourites and thoughtful flavours, crafted with care and served with love. Whatever you're craving, there's a little craft in every bite.</p>
+      </div>
+      <div class="story-stamp">CRAFTED<br>WITH CARE <span>♥</span></div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="menu-heading reveal">
+        <div>
+          <div class="section-kicker">FIND YOUR NEW FAVOURITE</div>
+          <h2>Explore <em>our menu.</em></h2>
+        </div>
+        <p>From little bites to lovely sips,<br>there's something for every craving.</p>
+      </div>
+      <div class="menu-tools">
+        <div class="category-tabs" id="categoryTabs" aria-label="Menu categories"></div>
+        <label class="search-box"><span>⌕</span><input id="menuSearch" type="search" placeholder="Find something delicious…" aria-label="Search menu"></label>
+      </div>
+      <div class="menu-meta"><span id="resultCount"></span><span>PRICES IN INR · SWIGGY / ZOMATO</span></div>
+      <div id="menuList" class="menu-list"></div>
+      <p class="menu-footnote">A note: prices and nutrition details are shown where available in our current menu data.</p>
+    </section>
+
+    <section class="closing section" id="contact">
+      <div class="closing-inner reveal">
+        <img src="assets/cravecraft-logo.jpg" alt="The Crave Craft logo">
+        <p class="eyebrow">YOUR CRAVINGS, OUR LITTLE CRAFT</p>
+        <h2>Something lovely<br>is <em>just a bite away.</em></h2>
+        <a class="primary-button" href="https://www.instagram.com/thec.ravecraft/" target="_blank" rel="noopener">Find us on Instagram <span>↗</span></a>
+        <p class="closing-tagline">From our cloud to your table. <span>♥</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="assets/cravecraft-logo.jpg" alt="">
+    <span>© <span id="year"></span> The Crave Craft</span>
+    <span>Crafted like art, served with love.</span>
+    <a href="https://www.instagram.com/thec.ravecraft/" target="_blank" rel="noopener">Instagram ↗</a>
+  </footer>
+  <script src="menu-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
