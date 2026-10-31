@@ -53,10 +53,20 @@ function render() {
       desc.className = "item-desc";
       desc.textContent = item.description || "A Crave Craft favourite, made with care.";
       info.append(name, desc);
-      if (item.carbs !== null && item.protein !== null) {
+      const nutritionDetails = [];
+      if (item.calories !== null && item.calories !== undefined) {
+        nutritionDetails.push(`CALORIES ${item.calories} kcal`);
+      }
+      if (item.carbs !== null && item.carbs !== undefined) {
+        nutritionDetails.push(`CARBS ${item.carbs}g`);
+      }
+      if (item.protein !== null && item.protein !== undefined) {
+        nutritionDetails.push(`PROTEIN ${item.protein}g`);
+      }
+      if (nutritionDetails.length) {
         const nutrition = document.createElement("div");
         nutrition.className = "item-nutrition";
-        nutrition.textContent = `CARBS ${item.carbs}g  ·  PROTEIN ${item.protein}g`;
+        nutrition.textContent = nutritionDetails.join("  ·  ");
         info.appendChild(nutrition);
       }
       const price = document.createElement("div");

@@ -5,6 +5,7 @@ const MENU = [
     "description": "Golden, crispy French fries lightly salted to perfection, served with classic mayonnaise and tangy tomato dip.",
     "carbs": "80",
     "protein": "6",
+    "calories": 344,
     "price": 180,
     "category": "Appetizers & Starters"
   },
@@ -13,6 +14,7 @@ const MENU = [
     "description": "Crispy golden fries tossed in bold and zesty peri peri masala, served with creamy mayo and ketchup.",
     "carbs": "83",
     "protein": "7",
+    "calories": 360,
     "price": 190,
     "category": "Appetizers & Starters"
   },
@@ -21,6 +23,7 @@ const MENU = [
     "description": "Thick-cut, golden potato wedges seasoned with aromatic herbs, served crisp with creamy mayonnaise and ketchup.",
     "carbs": "73",
     "protein": "6",
+    "calories": 316,
     "price": 180,
     "category": "Appetizers & Starters"
   },
@@ -29,6 +32,7 @@ const MENU = [
     "description": "Eight golden, crispy hash brown patties fried to a crunchy finish, accompanied by ketchup and mayo.",
     "carbs": "85",
     "protein": "6",
+    "calories": 364,
     "price": 220,
     "category": "Appetizers & Starters"
   },
@@ -37,6 +41,7 @@ const MENU = [
     "description": "Eight crispy crumb-coated vegetable fingers fried golden brown, served with tangy tomato dip.",
     "carbs": "61",
     "protein": "7",
+    "calories": 272,
     "price": 200,
     "category": "Appetizers & Starters"
   },
@@ -45,6 +50,7 @@ const MENU = [
     "description": "Eight tender, seasoned chicken fingers breaded and fried till crunchy golden, paired with mayo and tomato sauce.",
     "carbs": "40",
     "protein": "32",
+    "calories": 288,
     "price": 220,
     "category": "Appetizers & Starters"
   },
@@ -53,6 +59,7 @@ const MENU = [
     "description": "Eight classic bite-sized chicken nuggets with a crispy coating and juicy center, served with dips.",
     "carbs": "30",
     "protein": "22",
+    "calories": 208,
     "price": 240,
     "category": "Appetizers & Starters"
   },
@@ -61,6 +68,7 @@ const MENU = [
     "description": "Eight flaky fish fingers fried crisp and golden, served with rich, creamy tartar dip.",
     "carbs": "30",
     "protein": "26",
+    "calories": 224,
     "price": 280,
     "category": "Appetizers & Starters"
   },
@@ -69,6 +77,7 @@ const MENU = [
     "description": "Succulent strips of marinated chicken breast seasoned with herbs, crisped to perfection and served with dips.",
     "carbs": "84",
     "protein": "57",
+    "calories": 564,
     "price": 280,
     "category": "Appetizers & Starters"
   },
@@ -77,6 +86,7 @@ const MENU = [
     "description": "Juicy pan-seared prawns tossed in a rich butter garlic cream sauce with parmesan, served with toasted bread.",
     "carbs": "27",
     "protein": "46",
+    "calories": 292,
     "price": 380,
     "category": "Appetizers & Starters"
   },
@@ -85,6 +95,7 @@ const MENU = [
     "description": "Crispy chicken tossed in a sweet, savory, and spicy Korean glaze, topped with toasted sesame seeds and scallions.",
     "carbs": "94",
     "protein": "57",
+    "calories": 604,
     "price": 320,
     "category": "Appetizers & Starters"
   },
@@ -93,6 +104,7 @@ const MENU = [
     "description": "Crumb-crusted crispy basa fish fillet paired with golden fries and continental dipping sauce.",
     "carbs": "111",
     "protein": "49",
+    "calories": 640,
     "price": 360,
     "category": "Appetizers & Starters"
   },
@@ -101,6 +113,7 @@ const MENU = [
     "description": "Crispy chicken wings coated in a finger-licking sweet, spicy honey chilli garlic glaze.",
     "carbs": "87",
     "protein": "48",
+    "calories": null,
     "price": 320,
     "category": "Appetizers & Starters"
   },
@@ -109,6 +122,7 @@ const MENU = [
     "description": "Six chicken cocktail sausages sautéed with rosemary and garlic, served with a sunny fried egg and toast.",
     "carbs": "21",
     "protein": "29",
+    "calories": 200,
     "price": 230,
     "category": "All-Day Breakfast"
   },
@@ -117,6 +131,7 @@ const MENU = [
     "description": "Fluffy golden pancakes drizzled with warm maple syrup and a dollop of melted butter.",
     "carbs": "44",
     "protein": "4",
+    "calories": null,
     "price": 140,
     "category": "All-Day Breakfast"
   },
@@ -125,6 +140,7 @@ const MENU = [
     "description": "Warm, golden toast generously spread with rich Nutella hazelnut chocolate.",
     "carbs": "58",
     "protein": "7",
+    "calories": null,
     "price": 270,
     "category": "All-Day Breakfast"
   },
@@ -133,6 +149,7 @@ const MENU = [
     "description": "Fluffy two-egg continental omelette prepared with fresh cream and cracked pepper, served with buttered toast.",
     "carbs": "16",
     "protein": "15",
+    "calories": null,
     "price": 100,
     "category": "All-Day Breakfast"
   },
@@ -141,6 +158,7 @@ const MENU = [
     "description": "Fluffy two-egg omelette loaded with melted mozzarella and cheddar cheese, seasoned with fragrant oregano.",
     "carbs": "17",
     "protein": "24",
+    "calories": 164,
     "price": 220,
     "category": "All-Day Breakfast"
   },
@@ -149,6 +167,7 @@ const MENU = [
     "description": "Hearty breakfast platter featuring hash browns, eggs, sausages, bacon, fresh seasonal fruits, butter, and toast.",
     "carbs": "41",
     "protein": "25",
+    "calories": 264,
     "price": 249,
     "category": "All-Day Breakfast"
   },
@@ -157,6 +176,7 @@ const MENU = [
     "description": "Crisp medley of apple, pineapple, orange, and fresh tomatoes tossed with celery in a light creamy dressing.",
     "carbs": "25",
     "protein": "2",
+    "calories": 108,
     "price": 250,
     "category": "Fresh Salads"
   },
@@ -165,6 +185,7 @@ const MENU = [
     "description": "Fresh crunchy lettuce, cucumber, and cherry tomatoes tossed in creamy Caesar dressing with parmesan and croutons.",
     "carbs": "31",
     "protein": "10",
+    "calories": 164,
     "price": 250,
     "category": "Fresh Salads"
   },
@@ -173,6 +194,7 @@ const MENU = [
     "description": "Tender grilled chicken breast over crisp greens and cherry tomatoes, finished with Caesar dressing and parmesan.",
     "carbs": "31",
     "protein": "41",
+    "calories": 288,
     "price": 300,
     "category": "Fresh Salads"
   },
@@ -181,6 +203,7 @@ const MENU = [
     "description": "Crisp fresh apples, crunchy walnuts, and cashews tossed in a creamy honey-mustard and parmesan dressing.",
     "carbs": "48",
     "protein": "9",
+    "calories": 228,
     "price": 300,
     "category": "Fresh Salads"
   },
@@ -189,6 +212,7 @@ const MENU = [
     "description": "Grilled chicken breast layered with crisp apples, walnuts, cashews, and creamy honey-mustard dressing.",
     "carbs": "48",
     "protein": "40",
+    "calories": 352,
     "price": 350,
     "category": "Fresh Salads"
   },
@@ -197,6 +221,7 @@ const MENU = [
     "description": "Colorful bell peppers, cucumber, cherry tomatoes, and crisp lettuce tossed with authentic feta cheese and herb vinaigrette.",
     "carbs": "17",
     "protein": "5",
+    "calories": 88,
     "price": 350,
     "category": "Fresh Salads"
   },
@@ -205,6 +230,7 @@ const MENU = [
     "description": "Juicy grilled chicken breast with bell peppers, cucumber, tomatoes, and crumbled feta cheese in herb vinaigrette.",
     "carbs": "17",
     "protein": "36",
+    "calories": 212,
     "price": 380,
     "category": "Fresh Salads"
   },
@@ -213,6 +239,7 @@ const MENU = [
     "description": "Velvety pureed broccoli soup enriched with toasted almonds, fresh cream, and a hint of garlic.",
     "carbs": "11",
     "protein": "7",
+    "calories": 72,
     "price": 260,
     "category": "Gourmet Soups"
   },
@@ -221,6 +248,7 @@ const MENU = [
     "description": "Velvety broccoli almond soup packed with tender shredded chicken breast and fresh cream.",
     "carbs": "11",
     "protein": "23",
+    "calories": 136,
     "price": 280,
     "category": "Gourmet Soups"
   },
@@ -245,6 +273,7 @@ const MENU = [
     "description": "Comforting potato and roasted garlic cream soup infused with aromatic fresh Italian basil.",
     "carbs": "32",
     "protein": "7",
+    "calories": null,
     "price": 240,
     "category": "Gourmet Soups"
   },
@@ -253,6 +282,7 @@ const MENU = [
     "description": "Rich Italian herb and roasted garlic soup blended with tender chicken breast pieces.",
     "carbs": "32",
     "protein": "23",
+    "calories": 220,
     "price": 280,
     "category": "Gourmet Soups"
   },
@@ -261,6 +291,7 @@ const MENU = [
     "description": "Penne pasta smothered in a rich, buttery garlic parmesan cream sauce, served with garlic toast.",
     "carbs": "93",
     "protein": "31",
+    "calories": 496,
     "price": 380,
     "category": "Pasta Specialties"
   },
@@ -269,6 +300,7 @@ const MENU = [
     "description": "Penne tossed with tender grilled chicken in an indulgent garlic herb alfredo cream sauce.",
     "carbs": "93",
     "protein": "62",
+    "calories": 620,
     "price": 400,
     "category": "Pasta Specialties"
   },
@@ -277,6 +309,7 @@ const MENU = [
     "description": "Al dente spaghetti tossed in extra virgin olive oil with minced garlic, chilli flakes, olives, and herbs.",
     "carbs": "86",
     "protein": "19",
+    "calories": 420,
     "price": 330,
     "category": "Pasta Specialties"
   },
@@ -285,6 +318,7 @@ const MENU = [
     "description": "Classic aglio e olio spaghetti topped with grilled chicken, sliced olives, and aged parmesan.",
     "carbs": "86",
     "protein": "50",
+    "calories": 544,
     "price": 360,
     "category": "Pasta Specialties"
   },
@@ -293,6 +327,7 @@ const MENU = [
     "description": "Spaghetti tossed in fragrant homemade basil pesto sauce enriched with cream and parmesan.",
     "carbs": "94",
     "protein": "31",
+    "calories": 496,
     "price": 320,
     "category": "Pasta Specialties"
   },
@@ -301,6 +336,7 @@ const MENU = [
     "description": "Tender chicken tossed with spaghetti in a lush, creamy basil pesto sauce with parmesan.",
     "carbs": "94",
     "protein": "62",
+    "calories": 620,
     "price": 380,
     "category": "Pasta Specialties"
   },
@@ -309,6 +345,7 @@ const MENU = [
     "description": "Crispy fried chicken strips wrapped in a soft tortilla with spicy jalapeños, cheese, and garlic mayo.",
     "carbs": "39",
     "protein": "41",
+    "calories": 320,
     "price": 320,
     "category": "Wraps & Rolls"
   },
@@ -317,6 +354,7 @@ const MENU = [
     "description": "Tortilla packed with seasoned chicken, crunchy peppers, onions, melted cheese, and sriracha mayo.",
     "carbs": "39",
     "protein": "41",
+    "calories": 320,
     "price": 320,
     "category": "Wraps & Rolls"
   },
@@ -325,6 +363,7 @@ const MENU = [
     "description": "Toasted sandwich stuffed with fluffy eggs, sliced cheddar cheese, fresh veggies, and creamy mayo.",
     "carbs": "35",
     "protein": "24",
+    "calories": 236,
     "price": 250,
     "category": "Sandwiches & Burgers"
   },
@@ -333,6 +372,7 @@ const MENU = [
     "description": "Golden grilled sandwich filled with seasoned chicken breast, crisp bell peppers, and melted cheese.",
     "carbs": "35",
     "protein": "42",
+    "calories": 308,
     "price": 280,
     "category": "Sandwiches & Burgers"
   },
@@ -341,6 +381,7 @@ const MENU = [
     "description": "Triple-layer club sandwich stacked with juicy chicken breast, fried egg, fresh vegetables, and cheese.",
     "carbs": "49",
     "protein": "51",
+    "calories": 400,
     "price": 380,
     "category": "Sandwiches & Burgers"
   },
@@ -349,6 +390,7 @@ const MENU = [
     "description": "Crisp toasted bread bursting with sweet corn, gooey mozzarella, herbs, and zesty seasoning.",
     "carbs": "40",
     "protein": "17",
+    "calories": 228,
     "price": 250,
     "category": "Sandwiches & Burgers"
   },
@@ -357,6 +399,7 @@ const MENU = [
     "description": "Sautéed garlic mushrooms layered with gooey melted mozzarella and cheddar between toasted bread.",
     "carbs": "50",
     "protein": "20",
+    "calories": 280,
     "price": 250,
     "category": "Sandwiches & Burgers"
   },
@@ -365,6 +408,7 @@ const MENU = [
     "description": "Savory mushroom and potato patty topped with melted cheese, crisp veggies, and special burger sauce.",
     "carbs": "68",
     "protein": "14",
+    "calories": 328,
     "price": 290,
     "category": "Sandwiches & Burgers"
   },
@@ -373,6 +417,7 @@ const MENU = [
     "description": "Golden crumbed basa fish fillet with melted cheese, lettuce, tomato, and tangy sauce on a toasted bun.",
     "carbs": "113",
     "protein": "57",
+    "calories": 680,
     "price": 280,
     "category": "Sandwiches & Burgers"
   },
@@ -381,6 +426,7 @@ const MENU = [
     "description": "Crunchy, juicy fried chicken breast patty layered with melted cheese, fresh veggies, and spicy mayo.",
     "carbs": "112",
     "protein": "51",
+    "calories": 652,
     "price": 320,
     "category": "Sandwiches & Burgers"
   },
@@ -389,6 +435,7 @@ const MENU = [
     "description": "Two succulent chicken patties stacked with double cheese, crisp lettuce, tomato, and signature sauce.",
     "carbs": "38",
     "protein": "77",
+    "calories": 460,
     "price": 380,
     "category": "Sandwiches & Burgers"
   },
@@ -413,6 +460,7 @@ const MENU = [
     "description": "Crispy waffle topped with crushed Snickers, melted milk chocolate, caramel syrup, and cocoa dusting.",
     "carbs": "119",
     "protein": "16",
+    "calories": 540,
     "price": 250,
     "category": "Waffles & Pancakes"
   },
@@ -421,6 +469,7 @@ const MENU = [
     "description": "Fresh Belgian waffle layered with crispy KitKat bites, rich chocolate fudge, and cocoa powder.",
     "carbs": "109",
     "protein": "14",
+    "calories": 492,
     "price": 250,
     "category": "Waffles & Pancakes"
   },
@@ -429,6 +478,7 @@ const MENU = [
     "description": "Belgian waffle smothered with creamy Nutella, crunchy roasted cashews, and maple syrup.",
     "carbs": "101",
     "protein": "16",
+    "calories": 468,
     "price": 280,
     "category": "Waffles & Pancakes"
   },
@@ -437,6 +487,7 @@ const MENU = [
     "description": "Fresh waffle loaded with a swirl of rich dark and white melted chocolates and duo chocolate chips.",
     "carbs": "111",
     "protein": "13",
+    "calories": 496,
     "price": 240,
     "category": "Waffles & Pancakes"
   },
@@ -445,6 +496,7 @@ const MENU = [
     "description": "Crispy waffle topped with crushed Oreo biscuits, generous swirls of Nutella, and maple drizzle.",
     "carbs": "123",
     "protein": "14",
+    "calories": 548,
     "price": 280,
     "category": "Waffles & Pancakes"
   },
@@ -453,6 +505,7 @@ const MENU = [
     "description": "Crispy waffle garnished with fresh strawberries, cream cheese spread, white chocolate, and strawberry syrup.",
     "carbs": "110",
     "protein": "10",
+    "calories": 480,
     "price": 240,
     "category": "Waffles & Pancakes"
   },
@@ -461,6 +514,7 @@ const MENU = [
     "description": "Sweet fresh strawberries paired with decadent Nutella spread and strawberry drizzle on a hot waffle.",
     "carbs": "121",
     "protein": "11",
+    "calories": null,
     "price": 280,
     "category": "Waffles & Pancakes"
   },
@@ -469,6 +523,7 @@ const MENU = [
     "description": "Decadent waffle loaded with milk, dark, and white melted chocolate, chocolate chips, and syrup.",
     "carbs": "134",
     "protein": "16",
+    "calories": 600,
     "price": 290,
     "category": "Waffles & Pancakes"
   },
@@ -477,6 +532,7 @@ const MENU = [
     "description": "Premium waffle crowned with Ferrero Rocher pralines, rich Nutella, caramel, and chocolate drizzle.",
     "carbs": "124",
     "protein": "17",
+    "calories": 564,
     "price": 290,
     "category": "Waffles & Pancakes"
   },
@@ -485,6 +541,7 @@ const MENU = [
     "description": "An overloaded feast of pure Nutella spread generously across a warm, crispy Belgian waffle.",
     "carbs": "97",
     "protein": "13",
+    "calories": 440,
     "price": 290,
     "category": "Waffles & Pancakes"
   },
@@ -493,6 +550,7 @@ const MENU = [
     "description": "Fluffy pancakes marbled with melted dark and white chocolate, choco chips, and maple syrup.",
     "carbs": "101",
     "protein": "10",
+    "calories": 444,
     "price": 220,
     "category": "Waffles & Pancakes"
   },
@@ -501,6 +559,7 @@ const MENU = [
     "description": "Warm, fluffy pancakes lavishly smothered in creamy Nutella spread and maple drizzle.",
     "carbs": "95",
     "protein": "10",
+    "calories": 420,
     "price": 250,
     "category": "Waffles & Pancakes"
   },
@@ -509,6 +568,7 @@ const MENU = [
     "description": "Classic blended iced coffee made with rich milk, robust coffee extract, and a touch of caramel.",
     "carbs": "31",
     "protein": "5",
+    "calories": 144,
     "price": 190,
     "category": "Coffee & Cold Coffee"
   },
@@ -517,6 +577,7 @@ const MENU = [
     "description": "Rich cold coffee crowned with a creamy vanilla ice cream scoop and crunchy chocolate chips.",
     "carbs": "46",
     "protein": "7",
+    "calories": 212,
     "price": 250,
     "category": "Coffee & Cold Coffee"
   },
@@ -525,6 +586,7 @@ const MENU = [
     "description": "100% freshly pressed hydrating watermelon juice served crisp and chilled without additives.",
     "carbs": "30",
     "protein": "2",
+    "calories": 128,
     "price": 140,
     "category": "Fresh Juices & Coolers"
   },
@@ -533,6 +595,7 @@ const MENU = [
     "description": "Pure, fresh-squeezed citrus orange juice loaded with vitamin C and refreshing flavor.",
     "carbs": "29",
     "protein": "2",
+    "calories": 124,
     "price": 210,
     "category": "Fresh Juices & Coolers"
   },
@@ -541,6 +604,7 @@ const MENU = [
     "description": "Freshly pressed tropical pineapple juice bursting with natural sweet and tangy goodness.",
     "carbs": "33",
     "protein": "1",
+    "calories": 136,
     "price": 180,
     "category": "Fresh Juices & Coolers"
   },
@@ -549,6 +613,7 @@ const MENU = [
     "description": "Refreshing fizzy blend of fresh garden mint, zesty lime juice, and chilled sparkling soda.",
     "carbs": "31",
     "protein": "0",
+    "calories": 124,
     "price": 230,
     "category": "Fresh Juices & Coolers"
   },
@@ -557,6 +622,7 @@ const MENU = [
     "description": "Sparkling cooler featuring ripe strawberry syrup, crushed mint leaves, and fresh lime in soda.",
     "carbs": "39",
     "protein": "0",
+    "calories": 156,
     "price": 250,
     "category": "Fresh Juices & Coolers"
   },
@@ -565,6 +631,7 @@ const MENU = [
     "description": "Tangy tropical passion fruit syrup paired with fresh mint leaves, lime wedges, and bubbly soda.",
     "carbs": "39",
     "protein": "0",
+    "calories": 156,
     "price": 250,
     "category": "Fresh Juices & Coolers"
   },
@@ -573,6 +640,7 @@ const MENU = [
     "description": "Crisp green apple cooler muddled with fresh mint, lime, and effervescent sparkling soda.",
     "carbs": "39",
     "protein": "0",
+    "calories": 156,
     "price": 250,
     "category": "Fresh Juices & Coolers"
   },
@@ -581,6 +649,7 @@ const MENU = [
     "description": "Chilled freshly brewed black tea infused with sweet peach essence and served over ice.",
     "carbs": "22",
     "protein": "0",
+    "calories": 88,
     "price": 190,
     "category": "Fresh Juices & Coolers"
   },
@@ -589,6 +658,7 @@ const MENU = [
     "description": "Classic thick and creamy milkshake blended with velvety vanilla ice cream and caramel.",
     "carbs": "59",
     "protein": "9",
+    "calories": 272,
     "price": 190,
     "category": "Shakes"
   },
@@ -597,6 +667,7 @@ const MENU = [
     "description": "Indulgent thick shake blended with crispy KitKat bars, vanilla ice cream, and chocolate sauce.",
     "carbs": "72",
     "protein": "10",
+    "calories": 328,
     "price": 240,
     "category": "Shakes"
   },
@@ -605,6 +676,7 @@ const MENU = [
     "description": "Thick milkshake loaded with chunky Snickers, caramel syrup, roasted peanuts, and vanilla ice cream.",
     "carbs": "93",
     "protein": "14",
+    "calories": 428,
     "price": 240,
     "category": "Shakes"
   },
@@ -613,6 +685,7 @@ const MENU = [
     "description": "Creamy milkshake blended with decadent hazelnut spread, roasted peanuts, and rich chocolate fudge.",
     "carbs": "83",
     "protein": "14",
+    "calories": 388,
     "price": 260,
     "category": "Shakes"
   },
@@ -621,6 +694,7 @@ const MENU = [
     "description": "Thick, luscious milkshake crafted with sweet ripe strawberries and creamy vanilla ice cream.",
     "carbs": "54",
     "protein": "8",
+    "calories": 248,
     "price": 210,
     "category": "Shakes"
   },
@@ -629,6 +703,7 @@ const MENU = [
     "description": "Irresistible cookies-and-cream shake blended with crushed Oreos and rich vanilla ice cream.",
     "carbs": "81",
     "protein": "10",
+    "calories": 364,
     "price": 210,
     "category": "Shakes"
   }
